@@ -33,7 +33,7 @@ def turn(board)
   input_to_index(input)
   if valid_move(board, input)
     move(board, input)
-    display_board(board)
+    puts display_board(board)
   end
 end
 
