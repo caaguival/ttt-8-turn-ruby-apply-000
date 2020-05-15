@@ -34,6 +34,9 @@ def turn(board)
   if valid_move?(board, input)
     move(board, input)
     puts display_board(board)
+  else
+    puts "Please choose again"
+    turn(board)
   end
 end
 
